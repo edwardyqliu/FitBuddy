@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FitBuddy/static/css/main.20ef1045.css",
+    "main.js": "/FitBuddy/static/js/main.a2d96e3d.js",
+    "static/media/logo.png": "/FitBuddy/static/media/logo.6694b2a41f5c6925e5f7.png",
+    "static/media/muscle.png": "/FitBuddy/static/media/muscle.cb2c2be7f705375a9fd4.png",
+    "static/media/logo2.png": "/FitBuddy/static/media/logo2.29d8a23c37bfb0c47779.png",
+    "index.html": "/FitBuddy/index.html",
+    "main.20ef1045.css.map": "/FitBuddy/static/css/main.20ef1045.css.map",
+    "main.a2d96e3d.js.map": "/FitBuddy/static/js/main.a2d96e3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20ef1045.css",
+    "static/js/main.a2d96e3d.js"
+  ]
+}
