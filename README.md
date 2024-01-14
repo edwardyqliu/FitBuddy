@@ -1,5 +1,6 @@
 
 <img width="1437" alt="Screen Shot 2024-01-14 at 7 53 43 PM" src="https://github.com/edwardyqliu/FitBuddy/assets/114708188/e58b4dc5-1d00-466e-912d-03d2a0ac9a33">
+Sign up for your AI Gym-buddy
 
 # Getting Started with Create React App
 
