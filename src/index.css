@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Lato:wght@400;700&display=swap');
+
+:root {
+  --misty-rose: rgb(255, 228, 225);
+  --pink: rgb(255, 194, 209);
+  --cherry-blossom-pink: rgb(255, 179, 198);
+  --baker-miller-pink: rgba(255, 143, 171);
+  --rose-pompadour:  rgba(251, 111, 146);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+input:focus {
+  outline-color: var(--pink);
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--rose-pompadour) !important;
+}
+
+.company-name {
+  font-size: 24px;
+  color: var(--rose-pompadour);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.timeslot-selector {
+  font-size: 1em;
+  margin-top: 30px; 
+  color: var(--pink);
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-header {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--cherry-blossom-pink); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Lato', Roboto, Raleway, 'Montserrat'; 
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  overflow: auto;
+  background-color: var(--baker-miller-pink);
+}
+
+
+.aligned-container {
+  width: 100%;
+}
+
+.phone-input-container .PhoneInputInput {
+  outline-color: var(--rose-pompadour) !important;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--rose-pompadour);
+}
+
+.form-container {
+  width: 50%;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: var(--misty-rose);  
+}
+
+.form-header {
+  font-size: 1.5em;
+  color: var(--rose-pompadour);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', Roboto, Raleway, 'Montserrat';  
+}
+
+.mySubmitButton {
+  margin-top: 20px;
+  background-color: var(--misty-rose);
+  color: var(--rose-pompadour);
+}
+
+[type="submit"] {
+  margin-top: 20px;
+  background-color: var(--misty-rose);
+  color: var(--rose-pompadour);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Poppins', Roboto, Raleway, 'Montserrat';
+}
+
+[type="submit"]:hover {
+  background-color: var(--cherry-blossom-pink);
+}
+
+.image-container {
+  flex: 1;
+  background: url('images/logo.png') center/cover no-repeat;
+}
+
+.timeslot-selector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: var(--misty-rose);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.form-container, .image-container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.week-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-slot-header {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.day-column {
+  flex: 1;
+  text-align: center;
+}
+
+.day-header {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.time-slot {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.time-slot.selected {
+  background-color: var(--cherry-blossom-pink);
+}
+
+
