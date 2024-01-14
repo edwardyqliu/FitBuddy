@@ -1,6 +1,5 @@
 {
   "name": "fitness-form",
-  "homepage": "https://edwardyqliu.github.io/FitBuddy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
