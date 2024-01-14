@@ -1,8 +1,0 @@
-.phone-input-active input {
-    border-color: var(--cherry-blossom-pink);
-  }
-  
-  .phone-input-inactive input {
-    border-color: var(--pink);
-  }
-  
